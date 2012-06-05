@@ -46,10 +46,6 @@
 
     	_autoPlay: function( n ) {
     		var self = this;
-    		// console.log("index " + self.index)
-    		// self.index += n;
-            // self.index = self._getIndex(self.index);
-            console.log(self.index)
     		if( self.isPause === false ){
     			if( self.timer ){
     				clearTimeout(self.timer);
